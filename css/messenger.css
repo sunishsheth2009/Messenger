@@ -1,0 +1,18 @@
+.info {
+  font-family : helvetica;
+  font-size : 40px;
+  text-align : center;
+  padding : 30px;
+}
+.info1 {
+  font-family : helvetica;
+  font-size : 25px;
+  font-weight : bold;
+  margin-top : 0px;
+}
+.span-input {
+  font-family : arial;
+  font-size : 20px;
+  font-weight : bold;
+  font-style : italic;
+}

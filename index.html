@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densityDpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.0.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/messenger.css" />
+        <script src="jquery-1.6.min.js"></script>
+        <script src="jquery.mobile-1.2.min.js"></script>
+        <title>jIM</title>
+    </head>
+    <body>
+        <div data-role="page" id="home">
+			<div data-role="header" data-theme="d">
+				<h1> Messenger </h1>
+				<a href="#" data-icon="refresh" id="refresh">Refresh</a>
+				<a href="#chats" data-icon="grid" data-transition="flow">Chats</a>
+			</div>
+			<div data-role="content">
+			</div>
+		</div>
+		<div data-role="page" id="chats">
+			<div data-role="header" data-theme="d">
+				<h1> Chats </h1>
+				<a href="#" data-icon="home" id="home">Home</a>
+				<a href="#" data-icon="delete" id="clear">Clear</a>
+			</div>
+			<div data-role="content">
+				<ul data-role="listview">
+				</ul>
+			</div>
+		</div>
+		
+		<div data-role="dialog" id="login">
+			<div data-role="header">
+				<h1>Login</h1>
+			</div>
+			<div data-role="content">
+				<p class="info1">
+					 Choose your login
+				</p>
+				<span class="span-input">Login </span>
+				<input type="text"/><br/>
+				<a href="#" data-role="button" class="ok"> Okay! </a>
+			</div>
+		</div>
+		<div data-role="dialog" id="msg">
+			<div data-role="header">
+				<h1>Message</h1>
+			</div>
+			<div data-role="content">
+				<p class="info1">
+					 Enter your message
+				</p>
+				<span class="span-input">Message </span>
+				<input type="text"/><br/>
+				<a href="#" data-role="button" class="ok"> Okay! </a>
+			</div>
+		</div>
+		<script src="messenger.js"></script>
+    </body>
+</html>
